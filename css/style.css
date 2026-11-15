@@ -1,0 +1,18 @@
+:root {
+    --kleur-donker: #515052;
+    --kleur-accent: #FF312E;
+    --kleur-licht: #EEE5E5;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #EEE5E5;
+    color: #515052;
+}
+
+
+
+#menu-knop:focus-visible + label {
+    outline: 2px solid #1447e6;
+    outline-offset: 2px;
+}
